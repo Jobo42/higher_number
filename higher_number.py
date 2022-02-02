@@ -8,7 +8,7 @@ def higher_num(x):
     return x + 1
 
 def get_user_number():
-    n = input("Pick any number:")
+    n = input("Pick any number: ")
     return float(n)
 
 def print_computer_number(n):
