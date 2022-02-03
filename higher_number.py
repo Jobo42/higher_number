@@ -14,6 +14,11 @@ def get_user_number():
 def print_computer_number(n):
     print(f"The computer played: {n}")
 
-user_number = get_user_number()
-computer_number = higher_num(user_number)
-print_computer_number(computer_number)
+
+def play_higher_number_game():
+    rounds = int(input("How many rounds do you want to play? "))
+
+    for i in range(rounds):
+        user_number = get_user_number()
+        computer_number = higher_num(user_number)
+        print_computer_number(computer_number)
